@@ -26,21 +26,21 @@ const portfolioData: PortfolioCategory[] = [
       {
         id: "f2",
         title: "Beauty shoot",
-        thumbnailUrl: "/Images/zima.png",
+        thumbnailUrl: "/images/zima.png",
         videoUrl:
           "https://drive.google.com/file/d/1ietUCSHfrLHl2aYqj-1l9-PF1GmfSHtJ/view?usp=drive_link",
       },
       {
         id: "f4",
         title: "Yourba Bride",
-        thumbnailUrl: "/Images/trad.png",
+        thumbnailUrl: "/images/trad.png",
         videoUrl:
           "https://drive.google.com/file/d/1G86_W4LEj_YLqDMp2N2pWWbO3M_Ue2hF/view?usp=drive_link",
       },
       {
         id: "f3",
         title: "Reception Looks",
-        thumbnailUrl: "/Images/zimatwo.png",
+        thumbnailUrl: "/images/zimatwo.png",
         videoUrl:
           "https://drive.google.com/file/d/1oxJ2XrCUBQNREs_e1V7Ds3tNcqJOCBP9/view?usp=drive_link",
       },
@@ -56,7 +56,7 @@ const portfolioData: PortfolioCategory[] = [
       {
         id: "f6",
         title: "Bridgerton Remade",
-        thumbnailUrl: "/Images/bridgerton.png",
+        thumbnailUrl: "/images/bridgerton.png",
         videoUrl:
           "https://drive.google.com/file/d/1ULNqzs10wY4g_4ESC4AcTOCcZfMz1JdD/view?usp=drive_link",
       },
@@ -81,7 +81,7 @@ const portfolioData: PortfolioCategory[] = [
           {
             id: "w1",
             title: "Beautiful Bride",
-            thumbnailUrl: "/Images/wedding.png",
+            thumbnailUrl: "/images/wedding.png",
             videoUrl:
               "https://drive.google.com/file/d/1zmiKcfPYC5NzbcFCe9wB0VmbijltDX7D/view?usp=drive_link",
           },
@@ -95,7 +95,7 @@ const portfolioData: PortfolioCategory[] = [
           {
             id: "w3",
             title: "Court wedding",
-            thumbnailUrl: "/Images/couple.png",
+            thumbnailUrl: "/images/couple.png",
             videoUrl:
               "https://drive.google.com/file/d/1S5PeGUv32m5eaMBRn7_VAw5eFr66QUjt/view?usp=drive_link",
           },
@@ -108,14 +108,14 @@ const portfolioData: PortfolioCategory[] = [
           {
             id: "s1",
             title: "Party With Oloriebi",
-            thumbnailUrl: "/Images/oloriebi.png",
+            thumbnailUrl: "/images/oloriebi.png",
             videoUrl:
               "https://drive.google.com/file/d/12gpCbJ0iIm7iz4BE7kEA8u3FZt7HkqAi/view?usp=drive_link",
           },
           {
             id: "s2",
             title: "Tennie 20",
-            thumbnailUrl: "/Images/tennie.png",
+            thumbnailUrl: "/images/tennie.png",
             videoUrl:
               "https://drive.google.com/file/d/1pMFu1aihx4HHuAz8Crw70lqLoQ1N5Dyl/view?usp=drive_link",
           },
@@ -128,7 +128,7 @@ const portfolioData: PortfolioCategory[] = [
           {
             id: "c1",
             title: "EAF4",
-            thumbnailUrl: "/Images/foundation.png",
+            thumbnailUrl: "/images/foundation.png",
             videoUrl:
               "https://drive.google.com/file/d/15xUetF91Dx0HLCp8XC9UUG3vGWqsJRGG/view?usp=drive_link",
           },
@@ -144,28 +144,28 @@ const portfolioData: PortfolioCategory[] = [
       {
         id: "cc1",
         title: "Marriage Proposal",
-        thumbnailUrl: "Images/proposal.png",
+        thumbnailUrl: "/images/proposal.png",
         videoUrl:
           "https://drive.google.com/file/d/1UjD7j5-kfM7pPwaFtnTGJoEpqeJYxVua/view?usp=drive_link",
       },
       {
         id: "cc2",
         title: "Church Program",
-        thumbnailUrl: "Images/church.png",
+        thumbnailUrl: "/images/church.png",
         videoUrl:
           "https://drive.google.com/file/d/1uYVhw3OjaBwMXEFL1Onx5D8bwxPFowhK/view?usp=drive_link",
       },
       {
         id: "cc3",
         title: "Bridesmaid",
-        thumbnailUrl: "Images/sarah.png",
+        thumbnailUrl: "/images/sarah.png",
         videoUrl:
           "https://drive.google.com/file/d/1BDIpDu2BgvFuU1QMqUhYBfK7-UopuTlZ/view?usp=drive_link",
       },
       {
         id: "cc4",
         title: "Wedding Guest",
-        thumbnailUrl: "Images/black.png",
+        thumbnailUrl: "/images/black.png",
         videoUrl:
           "https://drive.google.com/file/d/1mAbpLKCWVdfYW6pKZUHrKwcSh_Nhiu3v/view?usp=drive_link",
       },
@@ -178,7 +178,7 @@ const portfolioData: PortfolioCategory[] = [
           {
             id: "b1",
             title: "Locksmith Auto",
-            thumbnailUrl: "Images/locksmith.png",
+            thumbnailUrl: "/images/locksmith.png",
             videoUrl:
               "https://drive.google.com/file/d/1sE7SNwQXtd2foTiGnn0U2tE19B0D1dyn/view?usp=drive_link",
           },
@@ -372,7 +372,7 @@ const Portfolio: React.FC = () => {
                 <img
                   src={item.thumbnailUrl}
                   alt={item.title}
-                  loading="lazy"
+                  // loading="lazy"
                   className="w-full h-full object-cover opacity-90 group-hover:opacity-100 group-hover:scale-110 transition-all duration-700"
                 />
 
