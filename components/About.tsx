@@ -86,7 +86,7 @@ const About: React.FC = () => {
               {/* Placeholder for Samuel's Photo - using a high quality Unsplash stock photo of a videographer for now */}
               <div className="aspect-[3/4] rounded-2xl overflow-hidden shadow-2xl border border-gray-200 dark:border-gray-800">
                 <img
-                  src="/Images/samuel.jpeg"
+                  src="/images/samuel.jpeg"
                   alt="Samuel Ayeni - Videographer"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
                 />
